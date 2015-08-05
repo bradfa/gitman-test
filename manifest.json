@@ -1,0 +1,23 @@
+{
+	"projects": [
+		{
+			"name": "test",
+			"remotes": [
+				{
+					"name": "github-bradfa",
+					"fetch": "ssh://git@github.com/bradfa"
+				}
+			],
+			"repos": [
+				{
+					"name": "Linux",
+					"remote": "github-bradfa",
+					"address": "Linux.git",
+					"branch": "linux-3.2.y",
+					"commit": "head",
+					"path": "linux/linux.git"
+				}
+			]
+		}
+	]
+}
